@@ -1,0 +1,201 @@
+html,
+body {
+    font-family: "quicksand", serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-padding-top: 80px;
+    /* or whatever your fixed header height is */
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #d8bfd8;
+}
+
+.navbar a {
+    color: #563c5c;
+}
+
+.navbar img {
+    mix-blend-mode: multiply;
+}
+
+.d-flex button {
+    border: 1px solid #563c5c;
+    color: #563c5c;
+}
+
+.d-flex button:hover {
+    border: 1px solid #563c5c;
+    background: #563c5c;
+    color: #d8bfd8;
+}
+
+.d-flex button:focus {
+    border: 1px solid #563c5c;
+    background: #563c5c;
+    color: #d8bfd8;
+}
+
+.c-item {
+    height: 700px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    /* filter: brightness(0.6); */
+}
+
+.c-btn {
+    border: 1px solid #563c5c;
+    color: #563c5c;
+}
+
+.c-btn2 {
+    border: 1px solid #d8bfd8;
+    color: #d8bfd8;
+}
+
+.c-btn:hover {
+    background: #563c5c;
+    color: #d8bfd8;
+}
+
+.c-btn2:hover {
+    background: #563c5c;
+    color: #d8bfd8;
+}
+
+.btn-outline-primary {
+    border: 1px solid #563c5c;
+    background: #563c5c;
+    color: #d8bfd8;
+}
+
+.btn-outline-primary:hover {
+    border: 1px solid #563c5c;
+    background: transparent;
+    color: #563c5c;
+}
+
+.btn-primary {
+    background: #d8bfd8;
+    color: #563c5c;
+    border: #d8bfd8;
+    ;
+}
+
+/* 
+.card-img{
+
+} */
+
+.bg-purple {
+    background-color: #d8bfd8;
+    color: #563c5c;
+}
+
+.bg-purple li {
+    list-style: none;
+    padding: 10px;
+}
+
+.bg-purple a {
+    text-decoration: none;
+    color: #563c5c
+}
+
+.uniform-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.color {
+    color: #563c5c;
+}
+
+.color2 {
+    color: #d8bfd8;
+}
+
+.card-body p {
+    color: #563c5c;
+}
+
+.bg-img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.6);
+}
+
+
+.offerings {
+    border: 1px solid #563c5c;
+    border-radius: 12px;
+    padding: 10px 20px;
+    background-color: #d8bfd8;
+    text-align: center;
+}
+
+#btn-view {
+    border: 1px solid #563c5c;
+}
+
+.about-page {
+    height: 100vh;
+}
+
+.about-img {
+    height: 100vh;
+    width: auto;
+    background-image: url(imges/henna-14.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.about-section {
+    position: relative;
+    height: 700px;
+    width: auto;
+}
+
+.about-section::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(imges/henna-2.avif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(0.6);
+}
+
+.hover-card{
+    transition: all 0.3s ease;
+}
+.hover-card:hover{
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 800px) {
+    .container-3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 20px;
+    }
+}
