@@ -162,7 +162,7 @@ body {
 
 .about-section {
     position: relative;
-    height: 700px;
+    height: auto;
     width: auto;
 }
 
@@ -189,26 +189,6 @@ body {
 }
 
 
-@media (max-width: 991px){
-    .abt-img img{
-    margin-top: 260px;
-    }
-}
-@media (max-width: 375px){
-    .abt-img img{
-    margin-top: 300px;;
-    }
-}
-@media (max-width: 330px){
-    .abt-img img{
-    margin-top: 350px;;
-    }
-}
-@media (max-width: 315px){
-    .abt-img img{
-    margin-top: 400px;;
-    }
-}
 
 @media (max-width: 800px) {
     .container-3 {
